@@ -78,11 +78,11 @@ export default function Home() {
           </div>
         </section>
 
-    <section id='contact' className='w-full flex flex-col justify-center items-center m-5'>
-            <div className='w-7/12 flex justify-center'>
-              <ContactForm/>
-            </div>
-    </section>
+        <section id='contact' className='w-full flex flex-col justify-center items-center m-5'>
+                <div className='w-full lg:w-7/12 flex justify-center'>
+                  <ContactForm/>
+                </div>
+        </section>
           
 
 
