@@ -50,8 +50,8 @@ export default function Home() {
                       />
                       
                         <div className='animate-fade-left flex flex-col text-center md:text-right'>
-                          <h1 className='text-[35px] font-sans'><strong>Como operamos?</strong></h1>
-                          <p className='text-[18px] text-stone-400'>En <strong>ASL</strong>, nuestra metodología es transparente y efectiva. Fusionamos estrategia y creatividad para ofrecerte soluciones de marketing digital impactantes. Desde la investigación inicial hasta la implementación y el análisis posterior, te acompañamos en cada paso para garantizar resultados excepcionales..</p>
+                          <h1 className='text-[35px] font-sans'><strong>Cómo operamos?</strong></h1>
+                          <p className='text-[18px] text-stone-400'>En <strong>ASL</strong>, nuestra metodología es transparente y efectiva. Fusionamos estrategia y creatividad para ofrecerte soluciones de marketing digital impactantes. Desde la investigación inicial hasta la implementación y el análisis posterior, te acompañamos en cada paso para garantizar resultados excepcionales.</p>
                       </div>
           
                     </div>
@@ -71,8 +71,8 @@ export default function Home() {
             <Image alt='simpleStudiosMockup' src={MockupSimplestudios} width={700}/>
 
             <div className='text-center lg:text-right'>
-            <a href="https://simple-studiosjs.vercel.app" target='_blank' className='text-[35px] font-sans font-extrabold  hover:text-slate-300 duration-100'>Simple Studio</a>
-            <p className='text-center lg:text-right'>Con Simple Studios elevá tu negocio al siguiente nivel. Nosotros te asesoramos y te guiamos en la creacion de tu pagina web personal o para tu propio negocio. Eleva el numero de ventas introduciendo tus productos en internet para tener mayor alcance.</p>
+            <a href="https://simple-studiosjs.vercel.app" target='_blank' className='text-[35px] font-sans font-extrabold  hover:text-slate-300 duration-100'>Simple Studios</a>
+            <p className='text-center lg:text-right'>Con Simple Studios elevá tu negocio al siguiente nivel. Nosotros te asesoramos y te guiamos en la creación de tu pagina web personal o para tu propio negocio. Eleva el número de ventas introduciendo tus productos en internet para tener mayor alcance.</p>
             </div>
             
           </div>

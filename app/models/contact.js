@@ -13,7 +13,7 @@ const contactSchema = new Schema({
     type: String,
     required: [false, "Name is required."],
     trim: true,
-    minLength: [2, "El nombre de la empresa debe ser de al menos 2 caracteres"],
+    minLength: [0, "business?"],
     maxLength: [50, "Name must be lesser than 50 characters"],
   },
 
