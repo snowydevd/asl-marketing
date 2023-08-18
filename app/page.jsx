@@ -66,11 +66,13 @@ export default function Home() {
 
         <section id='affiliates' className='w-full flex flex-col justify-center items-center sectionbgSmall h-96'>
           <h1 className=' tracking-tight font-extrabold text-7xl'>Afiliados</h1>
-          <div className='flex flex-row w-9/12 justify-between items-center gap-5'>
+          <div className='flex flex-col lg:flex-row w-9/12 justify-between items-center gap-5'>
+
             <Image alt='simpleStudiosMockup' src={MockupSimplestudios} width={700}/>
-            <div className='text-right'>
-            <a href="https://simple-studiosjs.vercel.app" target='_blank' className='text-[35px] font-sans font-extrabold flex justify-end text-right hover:text-slate-300 duration-100'>Simple Studio<BsLink45Deg/></a>
-            <p>Con Simple Studios elevá tu negocio al siguiente nivel. Nosotros te asesoramos y te guiamos en la creacion de tu pagina web personal o para tu propio negocio. Eleva el numero de ventas introduciendo tus productos en internet para tener mayor alcance.</p>
+
+            <div className='text-center lg:text-right'>
+            <a href="https://simple-studiosjs.vercel.app" target='_blank' className='text-[35px] font-sans font-extrabold  hover:text-slate-300 duration-100'>Simple Studio</a>
+            <p className='text-center lg:text-right'>Con Simple Studios elevá tu negocio al siguiente nivel. Nosotros te asesoramos y te guiamos en la creacion de tu pagina web personal o para tu propio negocio. Eleva el numero de ventas introduciendo tus productos en internet para tener mayor alcance.</p>
             </div>
             
           </div>
