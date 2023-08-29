@@ -18,8 +18,8 @@ export default function () {
                     <div className='lg:border-l-2 lg:border-stone-600 w-3/6 lg:w-1/6 p-3 font-sans h-fit'>
                         <h3 className='text-l text-stone-200 font-semibold'>Redes & Contacto</h3>
                         <div className='text-stone-400 text-xs'>
-                            <p>Email: aca va el email :D</p>
-                            <p>numero de telefono?</p>
+                            <p></p>
+                            <p>091961056</p>
                             <a target='_blank' href="https://www.instagram.com/aslmarketinguy/?hl=es"><p>Instagram</p></a>
                         </div>
                     </div>
