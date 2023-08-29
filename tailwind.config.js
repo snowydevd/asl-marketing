@@ -1,3 +1,5 @@
+const {nextui} = require("@nextui-org/react");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   safelist: [
@@ -10,6 +12,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
     "./node_modules/flowbite/**/*.js",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
 
     {
       relative: true,
@@ -26,9 +29,20 @@ module.exports = {
       },
     },
   },
+  
+
   plugins: [
     require('tailwindcss-animated'),
     require('flowbite/plugin'),
-    require('taos/plugin')
+    require('taos/plugin'),
+    nextui({
+      layout: {
+        size: {
+          small: "5px",
+          medium: "10px",
+          large: "17px",
+        }
+      }
+    })
   ],
 }

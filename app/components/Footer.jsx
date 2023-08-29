@@ -5,7 +5,7 @@ import Logo from '../assets/asl_headerLogo.svg'
 export default function () {
   return (
     <div className='flex flex-row justify-center items-center w-full bottom-0'>
-         <div className='w-full bg-slate-950 flex flex-row justify-center items-center h-full mt-36'>
+         <div className='w-full bg-stone-900 flex flex-row justify-center items-center h-full'>
             <div className='flex flex-row justify-between items-center w-full p-6'>
                 <div className='w-1/6 hidden lg:block'>
                         <Image
@@ -20,7 +20,7 @@ export default function () {
                         <div className='text-stone-400 text-xs'>
                             <p>Email: aca va el email :D</p>
                             <p>numero de telefono?</p>
-                            <a href="https://www.instagram.com/simplestudiosweb/?hl=es"><p>Instagram: insta de ASL</p></a>
+                            <a target='_blank' href="https://www.instagram.com/aslmarketinguy/?hl=es"><p>Instagram</p></a>
                         </div>
                     </div>
 
@@ -29,8 +29,10 @@ export default function () {
                         <div className='text-stone-400 text-xs'>
                             <a href="#home"><p>Home</p></a>
                             <a href="#info"><p>Informacion</p></a>
-                            <a href="#affiliates"><p>Afiliados</p></a>
+                            <a href="#servicios"><p>Servicios</p></a>
+                            <a href="#fases"><p>Fases</p></a>
                             <a href="#contact"><p>Contacto</p></a>
+                            <a href="#affiliates"><p>Afiliados</p></a>
                         
                         </div>
                         

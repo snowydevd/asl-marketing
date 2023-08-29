@@ -1,0 +1,37 @@
+{
+    "tabs": [
+      {
+        "title": "SEO",
+        "tag": "Fase 1",
+        "description": "En esta fase inicial, nos reuniremos contigo para comprender tu negocio, objetivos de marketing y necesidades específicas.",
+        "description2": "Realizaremos un análisis detallado de tu mercado objetivo, competidores y oportunidades de crecimiento.",
+        "link": "#0"
+      },
+      {
+          "title": "META Ads",
+          "tag": "Fase 2",
+          "description": "Basándonos en la información recopilada en el paso anterior, te presentaremos una propuesta detallada y un plan estratégico de marketing",
+          "description2": "Este plan incluirá un desglose de las acciones específicas que realizaremos para lograr tus objetivos, así como un cronograma y un presupuesto claro",
+          "link": "#0"
+      },
+      {
+          
+          "title": "Email Marketing",
+          "tag": "Fase 3",
+          "description": "Una vez que hayamos acordado todos los detalles del plan estratégico y la propuesta, finalizaremos la documentación contractual",
+          "description2": "Te proporcionaremos un contrato detallado que establecerá todos los términos y condiciones de nuestra colaboración",
+          "link": "#0"
+      },
+      {
+          
+          "title": "Webpage Creation",
+          "tag": "Fase 3",
+          "description": "Una vez que hayamos acordado todos los detalles del plan estratégico y la propuesta, finalizaremos la documentación contractual",
+          "description2": "Te proporcionaremos un contrato detallado que establecerá todos los términos y condiciones de nuestra colaboración",
+          "link": "#0"
+      }
+    ]
+}
+       
+
+      

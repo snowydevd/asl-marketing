@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.16",
+    "@nextui-org/react": "^2.1.7",
     "@vercel/analytics": "^1.0.2",
     "autoprefixer": "10.4.14",
     "flowbite": "^1.8.1",
+    "framer-motion": "^10.16.1",
     "mongoose": "^7.4.3",
     "next": "13.4.12",
     "postcss": "8.4.27",
@@ -23,6 +25,8 @@
     "taos": "^1.0.5"
   },
   "devDependencies": {
-    "tailwindcss-animated": "^1.0.1"
+    "@types/react": "18.2.21",
+    "tailwindcss-animated": "^1.0.1",
+    "typescript": "5.2.2"
   }
 }

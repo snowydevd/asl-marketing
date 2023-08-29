@@ -54,7 +54,7 @@ export default function ContactForm() {
          <form method="POST" className='w-full'>
             {/* FULL NAME */}
             <div className='flex flex-col m-5'>
-                <label className='font-semibold text-l lg:text-xl' htmlFor="fullname">Nombre Completo</label>
+                <label className='font-semibold text-l lg:text-xl' htmlFor="fullname">Nombre Completo*</label>
                 <input className=' bg-transparent border-2 border-slate-800 rounded-lg text:xs lg:text-l p-2' onChange={(e) => setFullname(e.target.value)} value={fullname} type="text" placeholder='Nombre Completo' id='fullname' name='fullname' required/>
             </div>
             {/* BUSINESS */}
@@ -64,12 +64,12 @@ export default function ContactForm() {
             </div>
             {/* EMAIL */}
             <div className='flex flex-col m-5'>
-                <label className='font-semibold text-l lg:text-xl' htmlFor="email">Correo Electrónico</label>
+                <label className='font-semibold text-l lg:text-xl' htmlFor="email">Correo Electrónico*</label>
                 <input className=' bg-transparent border-2 border-slate-800 rounded-lg text-l p-2' type="email" onChange={(e) => setEmail(e.target.value)} value={email} id='email' name='email' placeholder='ejemplo@mail.com' required/>
             </div>
                 {/* MESSAGE */}
             <div className='flex flex-col m-5'>
-                <label className='font-semibold text-l lg:text-xl' htmlFor="message">Mensaje</label>
+                <label className='font-semibold text-l lg:text-xl' htmlFor="message">Mensaje*</label>
                 <textarea className=' bg-transparent border-2 border-slate-800 rounded-lg text-l h-28 min-h-[32px] max-h-48 p-2' onChange={(e) => setMessage(e.target.value)} value={message} id='message' name='message' placeholder='Escriba su mensaje aquí' required/>
             </div>
             
