@@ -29,12 +29,15 @@ module.exports = {
       },
     },
   },
+
+  darkMode: ['class'],
   
 
   plugins: [
     require('tailwindcss-animated'),
     require('flowbite/plugin'),
     require('taos/plugin'),
+    [require("daisyui")],
     nextui({
       layout: {
         size: {

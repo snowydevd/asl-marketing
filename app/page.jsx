@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Navbar from './components/Navbar'
 import Tabs from './components/Tabs'
+import Footer from './components/Footer'
 import ServiceTabs from './components/ServiceTabs'
 import ContactForm from './components/ContactForm'
 
@@ -17,11 +18,11 @@ import {NextUIProvider} from "@nextui-org/react";
 export default function Home() {
 
   return (
-    <NextUIProvider>
+    
     <main className="flex flex-col items-center justify-center">
       {/* LANDING */}
        <section id='home' className=" flex flex-col justify-between items-center text-center w-full bg-fixed mb-16 sectionbg">
-        <Navbar/>
+        
           <div className='w-full h-full flex flex-col justify-center items-center'>
             <div className='w-full h-full flex flex-col justify-center items-center'>
               <h1 className='animate-fade-right animate-duration-100 animate-delay-150 text-4xl md:text-6xl font-bold  text-slate-300 m-3 font-mono'>Estrategias digitales, resultados <span className='text-gradient'></span>reales</h1>
@@ -68,8 +69,12 @@ export default function Home() {
         {/* Servicios */}
        
         <section id='servicios' className='flex flex-col items-start w-full lg:w-9/12 mt-2 mb-16 justify-center text-left'>
-        <div className='w-full flex justify-center'>
+        <div className='w-full flex flex-col justify-center items-center'>
+
         <ServiceTabs/>
+
+        <a href="/info" className='bg-indigo-950 rounded-lg p-3 hover:bg-indigo-900 duration-100 w-fit'>Mas Informacion</a>
+
         </div>
 
                     
@@ -129,7 +134,8 @@ export default function Home() {
             
           </div>
         </section>
+        <Footer/>
     </main>
-    </NextUIProvider>
+    
   )
 }
