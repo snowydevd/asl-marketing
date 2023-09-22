@@ -4,6 +4,9 @@ import metaAds from '../../public/meta.webp'
 import seoImage from '../../public/seo.webp'
 import googleAds from '../../public/googleAds.webp'
 import webpageCreation from '../../public/webpage.webp'
+import Navbar from '../components/Navbar'
+import { IoIosArrowBack } from "react-icons/io";
+
 
 export default function Info() {
 
@@ -37,8 +40,14 @@ export default function Info() {
       ];
 
   return (
-    <main className='h-[100vh] w-full flex flex-col justify-start items-center'>
-        <h1 className='text-3xl font-extrabold'>
+    <main className=' w-full flex flex-col justify-start items-center'>
+      <Navbar/>
+      <div className='w-2/4'>
+        <a href="/" className='text-3xl text-purple-600 hover:text-purple-900 duration-150 cursor-context-menu'> <IoIosArrowBack /></a>
+      </div>
+        <h1 className='text-3xl font-extrabold mt-16'>
+        
+
             Informacion adicional sobre servicios brindados
         </h1>
 

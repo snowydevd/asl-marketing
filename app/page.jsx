@@ -22,7 +22,7 @@ export default function Home() {
     <main className="flex flex-col items-center justify-center">
       {/* LANDING */}
        <section id='home' className=" flex flex-col justify-between items-center text-center w-full bg-fixed mb-16 sectionbg">
-        
+        <Navbar/>
           <div className='w-full h-full flex flex-col justify-center items-center'>
             <div className='w-full h-full flex flex-col justify-center items-center'>
               <h1 className='animate-fade-right animate-duration-100 animate-delay-150 text-4xl md:text-6xl font-bold  text-slate-300 m-3 font-mono'>Estrategias digitales, resultados <span className='text-gradient'></span>reales</h1>

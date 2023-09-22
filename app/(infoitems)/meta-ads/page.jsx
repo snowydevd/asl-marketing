@@ -10,7 +10,7 @@ import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@
 export default function MetaAds() {
   return (
     < >
-      <main className=' flex flex-col justify-start items-center '>
+      <main className='flex flex-col justify-start items-center m-16'>
 
         <section className='w-5/6 lg:w-2/4'>
         <div className='w-full flex justify-start items-center gap-16'>
@@ -20,7 +20,7 @@ export default function MetaAds() {
           <br className='h-1 bg-white w-full'/>
         </div>
 
-            <article className='w-full h-16 mt-16 text-xl'>
+            <article className='w-full h-16 mt-16 text-xl mb-7'>
               <p>En la era digital, la publicidad en redes sociales se ha convertido en una herramienta esencial para las empresas que buscan llegar a su público objetivo de manera efectiva. <strong className='text-purple-700'>Facebook Ads</strong> e <strong className='text-purple-700'>Instagram Ads</strong> son dos de las plataformas más influyentes en este ámbito, y juntas ofrecen un arsenal de posibilidades publicitarias. En este artículo, exploraremos estas dos plataformas y sus características clave.</p>
 
               <br />
@@ -55,16 +55,8 @@ export default function MetaAds() {
               Al igual que con <strong className='text-purple-700'>Facebook Ads</strong>, Instagram ofrece opciones avanzadas de segmentación y análisis de datos para optimizar tus campañas publicitarias. Puedes ajustar tus anuncios en función de la ubicación, intereses y comportamientos de tus audiencias objetivo.
 
               </p>
-
-              {/* Toda la mierda */}
-
-              {/* Table */}
-            
-
-          
-
-              
-
+              <br />
+              <br />
             </article>
 
         </section>
