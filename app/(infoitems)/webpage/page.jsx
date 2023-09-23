@@ -2,6 +2,8 @@
 
 import '../../globals.css'
 import React from 'react'
+import Image from 'next/image'
+import SimpleStudios from '../../../public/shotSimple.png'
 import { IoIosArrowBack } from "react-icons/io";
 import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
 
@@ -54,16 +56,31 @@ export default function Webpage() {
 
               <h2 className='text-3xl font-extrabold mb-3'>Marketing y Promoción:</h2>
               <p>
-              Las páginas web son una herramienta esencial para las estrategias de marketing digital. A través de técnicas como el SEO, el contenido de calidad y las campañas de publicidad en línea, las páginas web pueden atraer tráfico, generar leads y aumentar las conversiones.              </p>
+              Las páginas web son una herramienta esencial para las estrategias de marketing digital. A través de técnicas como el SEO, el contenido de calidad y las campañas de publicidad en línea, las páginas web pueden atraer tráfico, generar leads y aumentar las conversiones. </p>
               <br />
 
               <h2 className='text-3xl font-extrabold mb-3'>Adaptabilidad:</h2>
               <p>
-              Las páginas web son altamente adaptables. Pueden evolucionar con el tiempo para mantenerse actualizadas y relevantes. Esto incluye la adición de nuevas secciones, la optimización para dispositivos móviles y la integración de nuevas tecnologías.              </p>
+              Las páginas web son altamente adaptables. Pueden evolucionar con el tiempo para mantenerse actualizadas y relevantes. Esto incluye la adición de nuevas secciones, la optimización para dispositivos móviles y la integración de nuevas tecnologías.</p>
               <br />
-            
 
-            
+
+
+              <p className='font-semibold'>Hay varias formas de crear paginas web hoy en dia, aun asi nosotros recomendamos a nuestros afiliados y este es el caso de <strong className='text-purple-600'>Simple Studios</strong></p>
+              <div className=' w-full p-6 mb-16 flex lg:flex-row flex-col justify-between items-center mt-3 rounded-lg'>
+
+                <div>
+                  <Image alt='Simple Studios' src={SimpleStudios} width={500} className='lg:block hidden'/>
+                </div>
+
+                <div className='w-full lg:w-2/4 text-right flex flex-col items-center justify-center lg:items-end lg:justify-end'>
+                  <p className='text-center lg:text-right text-2xl font-bold'>Con Simple Studios Eleva tu negocio al siguiente nivel recibiendo asesoria y soporte de la mano de expertos.</p>
+                  
+                  <a href="https://simple-studiosjs.vercel.app" target='_blank' className='p-2 rounded-lg bg-purple-800 mt-3 hover:bg-purple-900 duration-150 hover:-translate-y-1 w-fit px-9'>Ir</a>
+                </div>
+                
+              </div>
+              <br />
             </article>
 
         </section>

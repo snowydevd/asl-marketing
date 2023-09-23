@@ -31,6 +31,10 @@ body {
   height: 100vh;
 }
 
+.simple-bg{
+  background-image: url('../public/simplebg.svg');
+}
+
 
 
 .sectionbgSmall{
